@@ -1,2 +1,2 @@
 Author: Matthew Tan
-Purpose: This is the Week 5 assignment where we focus on implementing CSS grids onto an existing starter-files, only modifying the main.css.
+Purpose: This is the Week 5 assignment where we focus on implementing CSS grids onto an existing starter-files, only modifying the main.css. The main.css will mainly define the grid areas and grid columns/rows sizing, with the header and footer respectively taking all of the width of their row, and the main-container being divided with nav and aside taking 25% of space with the main content taking 50%.
