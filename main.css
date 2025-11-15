@@ -50,6 +50,7 @@ header {
 
 main {
 	grid-area: main;
+	border: 5px solid pink;
 }
 
 p {
@@ -84,4 +85,9 @@ p {
 }
 aside {
 	grid-area: aside;
+	border: 5px solid red;
+}
+nav {
+	grid-area: nav;
+	border: 5px solid green;
 }
