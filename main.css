@@ -20,6 +20,12 @@ a:focus, a:hover {
 body {
 	font-family: 'Noto Serif', serif;
 	font-size: 18px;
+	
+	display: grid;
+	grid-template-areas: "header header header"
+						"nav main aside"
+						"footer footer footer";
+	grid-template-columns: 25% 50% 25%;
 }
 
 h1, h2 {
@@ -42,7 +48,7 @@ header {
 }
 
 main {
-
+	grid-area: main;
 }
 
 p {
@@ -59,13 +65,16 @@ p {
 }
 
 #footer-container {
-	
+	grid-area: footer;
 }
 
 #header-container {
-
+	grid-area: header;
 }
 
 #main-container {
-
+	grid-area: nav;
+}
+aside {
+	grid-area: aside;
 }
