@@ -22,10 +22,11 @@ body {
 	font-size: 18px;
 	
 	display: grid;
-	grid-template-areas: "header header header"
-						"nav main aside"
-						"footer footer footer";
-	grid-template-columns: 25% 50% 25%;
+	grid-template-areas: "header"
+						"main"
+						"footer";
+	grid-template-rows: auto auto auto;
+	row-gap: 1.5em;
 }
 
 h1, h2 {
@@ -66,14 +67,20 @@ p {
 
 #footer-container {
 	grid-area: footer;
+	border: 5px solid blue;
+	padding: 1em;
 }
 
 #header-container {
 	grid-area: header;
+	border: 5px solid orange;
 }
 
 #main-container {
-	grid-area: nav;
+	display: grid;
+	grid-template-areas: "nav main aside";
+	grid-template-rows: 25% 50% 25%;
+	column-gap: 2em;
 }
 aside {
 	grid-area: aside;
